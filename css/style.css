@@ -162,9 +162,22 @@ section.about .social a img{
     line-height: 0.5;
 }
 
+.section-heading span{
+    color: var(--primary);
+}
+
 .section-heading + p{
     color: var(--ternary);
     font-family: 'Lato',sans-serif;
-    margin-bottom: 1rem;
+    margin-bottom: 6rem;
     text-align: center;
+}
+
+section.Projects{
+    background: var(--light);
+}
+
+section.Projects .card-wrapper{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
 }
