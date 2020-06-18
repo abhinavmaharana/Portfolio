@@ -12,6 +12,10 @@ body{
     font-family: 'Poppins',sans-serif;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 *{
    padding: 0;
    margin: 0;
@@ -465,3 +469,4 @@ footer .footer-socials{
 footer .copyright{
     color: var(--ternary);
 }
+
